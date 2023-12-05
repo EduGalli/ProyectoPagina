@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>Top 5 equipos de Primera División Argentina</h1>
-        <img src="../img/argentina.jpg" width="400px" alt="foto argentina">
+        <h1>Top 5 equipos de Primera División Argentina</h1>        
         <nav class="navbar navbar-expand-lg colorPropio">
           <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo" src="../img/estadistica3.png" alt="logo"></a>
@@ -30,63 +29,110 @@
             </div>
           </div>
         </nav>     
-      </header>
-      <main>
-        
+    </header>
+    <main>
+      <div id="carrusel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carrusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/boca1.jpg" class="d-block w-100" alt="foto kempes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Boca Juniors</h5>
+              <p><strong>Estadio La Bombonera</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/river1.jpg" class="d-block w-100" alt="foto maradona">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>River Plate</h5>
+              <p><strong>Estadio El Monumental</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/independiente1.jpg" class="d-block w-100" alt="foto messi">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Independiente</h5>
+              <p><strong>Estadio Libertadores de América-Ricardo Enrique Bochini</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/racing1.jpg" class="d-block w-100" alt="foto messi">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Racing</h5>
+              <p><strong>Estadio El Cilindro de Avellaneda</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/san lorenzo1.jpg" class="d-block w-100" alt="foto messi">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>San Lorenzo</h5>
+              <p><strong>Estadio Pedro Bidegain</strong></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>        
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-sm-12 col-xs-12">
               <h2>Argentina</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi quod quas eos vero! Eum, dolorem. Explicabo repellat voluptates ut culpa ratione perferendis ullam odio dolorum molestias itaque eius dolorem placeat, deleniti nulla quaerat veniam officiis. Quos asperiores quas molestias!
+                <p>La Primera División de Argentina es el torneo de la primera categoría del fútbol masculino argentino, organizado desde 1893 por la Asociación del Fútbol Argentino.
                 </p>
             </div>
           
             <div class="col-lg-6 col-sm-12 col-xs-12">
-              <img src="../img/Argentina.png" width="200px">
+              <img src="../img/argentina.png" width="200px">
             </div>
-         </div>
+          </div>
         </div>
-            <section class="tabla">  
-            
+        <section class="tabla">              
               <table class="table table-primary table-striped table-hover radius">
                 <thead>
                   <tr>
                     <th>Equipos</th>
-                    <th>Partidos</th>
-                    <th>Puntaje</th>
+                    <th>Trofeos</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Equipo 1</td>
-                    <td>5</td>
-                    <td>15</td>
+                    <td>Boca Juniors</td>
+                    <td>74</td>
                   </tr>
                   <tr>
-                    <td>Equipo 2</td>
-                    <td>6</td>
-                    <td>18</td>
+                    <td>River Plate</td>
+                    <td>70</td>
                   </tr>
                   <tr>
-                    <td>Equipo 3</td>
-                    <td>5</td>
-                    <td>15</td>
+                    <td>Independiente</td>
+                    <td>45</td>
                   </tr>
                   <tr>
-                    <td>Equipo 4</td>
-                    <td>6</td>
-                    <td>18</td>
+                    <td>Racing</td>
+                    <td>39</td>
                   </tr>
                   <tr>
-                    <td>Equipo 5</td>
-                    <td>6</td>
-                    <td>18</td>
+                    <td>San Lorenzo</td>
+                    <td>22</td>
                   </tr>
                   
                 </tbody>
               </table>
-            </section>
-      </main>       
+      </section>
+      
+    </main>       
     <footer>
       <nav class="navbar navbar-expand-lg colorPropio">
         <div class="container-fluid">
@@ -96,11 +142,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link text-light" href="#">Mail</a>
-              <a class="nav-link text-light" href="#">Instagram</a>
-              <a class="nav-link text-light" href="#">Facebook</a>
-              <a class="nav-link text-light" href="#">Whatsapp</a>
-                                
+              <a class="nav-link text-light" href="https://mail.google.com/">Mail</a>
+              <a class="nav-link text-light" href="https://instagram.com">Instagram</a>
+              <a class="nav-link text-light" href="https://facebook.com">Facebook</a>
+              <a class="nav-link text-light" href="https://web.whatsapp.com">Whatsapp</a>                                
             </div>
           </div>
         </div>
