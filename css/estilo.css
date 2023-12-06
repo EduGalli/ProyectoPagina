@@ -46,6 +46,11 @@ h2{
     background-color: black;
     color: white;
 }
+.accordion-body {
+    background-color: rgb(65, 63, 63);
+    padding: 10px;
+    color: white;
+}
 main p{
     color: rgb(209, 209, 217);
     font-size: 18px;
