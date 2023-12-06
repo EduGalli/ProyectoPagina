@@ -33,7 +33,7 @@ h2{
     width:50px;
 }
 .colorPropio{
-    background-color: #0b0c45;
+    background-color: gray;
 }
 .carousel-item{
     height: 600px;
@@ -45,7 +45,7 @@ h2{
 .carousel-caption p,h5 {
     background-color: black;
     color: white;
-  }
+}
 main p{
     color: rgb(209, 209, 217);
     font-size: 18px;
