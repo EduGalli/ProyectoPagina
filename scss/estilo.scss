@@ -1,0 +1,71 @@
+$colorpropio:gray;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2e2e2d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    .formulario{
+        width: 500px;
+        margin:20px auto;
+        border:solid blue 3px;
+        padding: 1rem;
+    }
+}
+    header{
+      h1{
+        text-align: center;
+        font-size: 40px;
+      }
+      h2{
+        text-align: center;
+        font-size: 36px;
+        padding: 1%;
+      }
+      .logo{
+        width:50px;
+      }
+      .navbar{
+        background-color: $colorpropio;
+      }
+    }
+main{ 
+    h2{
+      text-align: center;
+      font-size: 40px;
+      padding: 1%;    
+    }
+       p{
+        color: rgb(209, 209, 217);
+        font-size: 20px;        
+       }
+        .tabla{
+           width: 500px;
+           margin:10px auto;
+     
+             .radius{
+                 border:solid blue 3px;
+             }
+        }     
+            .carousel-item{
+                height: 600px;
+            }    
+                .carousel-control-prev, .carousel-control-next {
+                   background-color: grey;
+                   width: 50px;
+                }
+                    .carousel-caption p,h5 {
+                       background-color: black;
+                       color: white;
+                    }
+    .accordion-body {
+        background-color: rgb(65, 63, 63);
+        padding: 10px;
+        color: white;
+    }
+}      
+footer .navbar{
+    background-color: $colorpropio;
+}
