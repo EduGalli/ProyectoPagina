@@ -31,6 +31,9 @@ header .navbar {
   background-color: gray;
 }
 
+main img:hover {
+  transform: scale(1.2);
+}
 main h2 {
   text-align: center;
   font-size: 40px;
